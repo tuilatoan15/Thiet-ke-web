@@ -1,0 +1,84 @@
+
+#wp-header {
+    margin: 0 auto;
+    width: 1530px;
+}
+
+.first-header a img{
+    width: 1550px;
+}
+
+header {
+    padding: 0px 15px;
+    align-items: center;
+}
+.logo {
+    flex-basis: 10%;
+}
+.logo a{
+    display: block;
+}
+.logo a img{
+    width: 105px;
+    height: auto;
+}
+.main-menu{
+    flex-basis: 85%;
+    justify-content: start;
+    gap: 20px;
+    
+}
+.menu-item{
+    position: relative;
+    padding: 16px;
+}
+.menu-item:hover .menu-item-link{
+    color: rgb(255, 120, 0);
+}
+.menu-item-link{
+    color: #1F2642;
+}
+.menu-item:last-child .menu-item-link{
+    color: rgb(255, 120, 0);
+}
+
+.sub-menu{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    background-color: #fff;
+    top: 32px;
+    left: -32px;
+    width: 200px;
+    gap: 10px;
+    padding: 15px 5px;
+    border-radius: 5px;
+    z-index: 100;
+    box-shadow: 2px 2px #f4f2f2;
+}
+.menu-item:hover .sub-menu{
+    display: flex;
+}
+
+.sub-menu-item{
+    flex-basis: 100%;
+}
+.sub-menu-item-link{
+    color: rgb(51, 51, 51);
+}
+.sub-menu-item:hover .sub-menu-item-link{
+    color: rgb(255, 120, 0);
+}
+.login{
+    flex-basis: 10%;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: bold;
+}
+.login a{
+    color: rgb(51, 51, 51);
+}
+.login:hover a{
+    color: rgb(255, 120, 0);
+}
